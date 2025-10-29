@@ -6,7 +6,7 @@ on:
 
 jobs:
   say-hello:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
       # 1) Descarga el código del repo en la máquina virtual
